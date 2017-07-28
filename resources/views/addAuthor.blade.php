@@ -3,8 +3,8 @@
  @section('content')
  
  {{Form::open(['url' => '/insertAuthor'])}}
- {{Form::label('name','Nom de l\'artiste')}}
- {{Form::text('name')}}
+ {{Form::label('name','Nom de l\'artiste',array('class' => 'add'))}}
+ {{Form::text('name')}} 
  {{Form::submit('Insérer')}}
  {{Form::close()}}
  <ul>

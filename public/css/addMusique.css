@@ -1,0 +1,17 @@
+    form {
+        margin-top: 10%;
+    }
+    label.add{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 3em;
+    }
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}

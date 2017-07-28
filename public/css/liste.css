@@ -1,0 +1,30 @@
+h2 {
+    color:white;
+}
+.table-title th {
+    background-color: pink;
+}
+
+table, th, td{
+    border:0.5px grey solid;
+    border-collapse: collapse;
+    margin-top: 5%;
+}
+
+th, td {
+    padding:10px;
+    text-align: center;
+}
+
+th{
+    background-color:transparent;
+    color:black;
+}
+
+tr:nth-child(even){
+    background-color: #e8e8e8;
+}
+tr:nth-child(odd)
+{
+    background-color: white;
+}

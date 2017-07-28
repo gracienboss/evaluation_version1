@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    
     <link rel="stylesheet" type="text/css" href='{{ URL::asset('css/accueil.css') }}'>
- <!--   <link rel="stylesheet" type="text/css" href='{{ URL::asset('css/login.css') }}'>
+    <link rel="stylesheet" type="text/css" href='{{ URL::asset('css/login.css') }}'>
     <link rel="stylesheet" type="text/css" href='{{ URL::asset('css/liste.css') }}'>
-    -->
+    <link rel="stylesheet" type="text/css" href='{{ URL::asset('css/liste.css') }}'>
+    <link rel="stylesheet" type="text/css" href='{{ URL::asset('css/addMusique.css') }}'>
+    <link rel="stylesheet" type="text/css" href='{{ URL::asset('css/addAuthor.css') }}'>
+    <link rel="stylesheet" type="text/css" href='{{ URL::asset('css/home.css') }}'>
+       
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     
     

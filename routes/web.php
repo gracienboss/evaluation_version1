@@ -17,17 +17,17 @@
 
 Auth::routes();
 
-//Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/accueil', 'AccueilController@index');
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'AccueilController@index');
 Route::get('/liste', 'ListeController@index');
 Route::get('/addMusique', 'ListeController@addMusique');
 Route::post('/insert/musique', 'ListeController@insertMusique');
 Route::post('/delete/musique', 'ListeController@deleteMusique');
-Route::post('/update/musique', 'ListeController@updatemMusique');
+Route::post('/update/musique', 'ListeController@updateMusique');
 Route::post('/update/musique/action', 'ListeController@updateMusiqueAction');
 
 // Routes pour relier l'auteur
-Route::get('/addAuthor', 'AuthorsController@addAuthor');
-Route::post('/insertAuthor', 'AuthorsController@insertAuthor');
+Route::get('/addAuthor', 'AuthorController@addAuthor');
+Route::post('/insertAuthor', 'AuthorController@insertAuthor');
 Route::get('/addMusiques', 'ListeController@addMusique');
 

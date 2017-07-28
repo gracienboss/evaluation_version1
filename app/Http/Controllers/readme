@@ -3,3 +3,21 @@ travail d'evaluation:
 problemes rencontrés: je me suis embrouillé avec les routes
 - quelques petites recherches pour le model 
 -la plupart des problemes rencontré, a été mysql
+
+- Pas de pb avec l'installation de laravel, tout à fonctionner nickel
+
+2e jour
+J'ai trouvé une solution pour me logout
+j'avais une difficulté avec les chemins avec le logout du coup, pour se logout
+une fois connecté, il faut cliquer sur logout qui ramene sur home et de home puis de là appuyer sur l'onglet logout pour se reiriger sur la page d'accueil.
+
+- quelques problemes rencontré avec le css;
+difficulté à mettre un id pour les inputs des formulaires de larvel collective
+j'ai néamoins réussi en mettre un sur le label
+
+- css terminé à 80%, pouvait faire mieux...
+
+ce que je pourrais faire:
+
+- c'est de mieux me documenté, trouver des sources sures et recente
+-mettre un peu lus de javascript pour dynamiser le tout

@@ -13,7 +13,7 @@ class ListeController extends Controller
   
     public function index(){
 
-        $musiques = Musique:: all();
+        $musiques = Musique::all();
 
 
         $value = array();
@@ -39,7 +39,7 @@ class ListeController extends Controller
         };
         return view('liste', 
        
-        ["books" => $value]);
+        ["musiques" => $value]);
     }
 
 
